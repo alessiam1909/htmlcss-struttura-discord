@@ -156,15 +156,23 @@
 }
 
 /* creazione footer */
-.footer {
+.footer1, .footer2 {
     display: flex;
     justify-content: center ;
     background-color: rgb(27, 27, 27);
-    height: 600px; 
     width: 100%;
     flex-wrap: wrap;
 }
 
+.footer1 {
+    border-bottom: 5px solid grey;
+    height: 600px;
+}
+
+.footer2{
+    height: 100px;
+    align-items: flex-end;
+}
 .riga6{
     display: flex;
     justify-content: center;
@@ -175,19 +183,21 @@
 .col-1{
     background-color: rgb(236, 65, 108);
     width: 30%;
+    height: 550px;
     border: 2px solid black;
     border-style: dashed;
     margin-top: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .col-2, .col-3, .col-4, .col-5 {
     background-color: aqua;
     width: 17.5%;
+    height: 550px;
     border: 2px solid white;
     border-style: dashed;
     margin-top: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .riga7{
@@ -195,10 +205,8 @@
     justify-content: space-between;
     align-items: flex-end;
     width: 70%; 
-    height: 50px;
+    height: 60px;
     background-color: lightblue;
-    border-top: 5px solid grey;
-   
 }
 
 .bottone-1 {

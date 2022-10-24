@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* creazione blocchi header con sottoblocchi */
+.contenitoreHeader{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center ;
+}
+
+.riga1{
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    width: 70%;
+    height: 30px;
+    margin: 10px auto;
+}
+
+.col1, .col2, .col3 { 
+    border: 2px solid black;
+    border-style: dashed;
+    padding: 5px;
+}
+
+.col1 {
+    justify-content: flex-start;
+    width: 20%;
+}
+
+.col2{
+    display: flex;
+    width: 60%;
+}
+
+.col3{
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+}
+
+.listaHeader{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 100%;
+    margin: 0 30%;
+}
+

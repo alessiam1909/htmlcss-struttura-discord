@@ -62,6 +62,8 @@
     width: 40%;
     margin: 20px 0;
     background-color: rgb(207, 57, 170);
+    border: 2px solid black;
+    border-style: dashed;
 }
 
 /* creazione corpo della pagina */
@@ -90,12 +92,14 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    margin: 20px 0;
 }
 
 .riga3 {
     display: flex;
     justify-content: center ;
     width: 70%;
+    margin: 20px 0;
 }
 
 .colRosa3 {
@@ -103,6 +107,8 @@
     height: 300px;
     background-color: pink;  
     height: 100%;
+    border: 2px solid black;
+    border-style: dashed;
 }
 
 .colBlu3 {
@@ -110,6 +116,8 @@
     height: 300px;
     background-color: rgb(9, 66, 170); 
     height: 100%;
+    border: 2px solid black;
+    border-style: dashed;
   
 }
 
@@ -117,23 +125,97 @@
     width: 60%;
     height: 300px;
     background-color: rgb(9, 66, 170);
+    border: 2px solid black;
+    border-style: dashed;
 }
 
 .colRosa {
     width: 40%;
     height: 300px;
     background-color: pink;
+    border: 2px solid black;
+    border-style: dashed;
 }
 
 .contenitoreRigaSpeciale2 {
     display: flex;
     justify-content: center ;
     background-color: lightgrey;
-    height: 500px; 
+    height: 600px; 
+    width: 100%;
 }
 
 .riga5 {
-   height: 400px;
+    display: flex;
+    justify-content: center;
     width: 70%;
     background-color: green;
+    margin: 20px 0;
+    border: 2px solid black;
+    border-style: dashed;
+}
+
+/* creazione footer */
+.footer {
+    display: flex;
+    justify-content: center ;
+    background-color: rgb(27, 27, 27);
+    height: 600px; 
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.riga6{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 400px;
+}
+
+.col-1{
+    background-color: rgb(236, 65, 108);
+    width: 30%;
+    border: 2px solid black;
+    border-style: dashed;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.col-2, .col-3, .col-4, .col-5 {
+    background-color: aqua;
+    width: 17.5%;
+    border: 2px solid white;
+    border-style: dashed;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.riga7{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 70%; 
+    height: 50px;
+    background-color: lightblue;
+    border-top: 5px solid grey;
+   
+}
+
+.bottone-1 {
+    border: 2px solid black;
+    border-style: dashed;
+    background-color: pink;
+    margin: 10px 0;
+    text-align: center;
+    padding: 2px;
+}
+
+.bottone-2{
+    background-color: pink;
+    border: 2px solid black;
+    border-style: dashed;
+    margin: 10px 0;
+    text-align: center;
+    padding: 2px;
+
 }
